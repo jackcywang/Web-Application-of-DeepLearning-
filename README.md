@@ -21,6 +21,6 @@ cd Web-Application-of-DeepLearning-
 python app.py
 ```
 
-4. 在浏览器中输入http://127.0.0.1:8000,先选择一张图片，然后点击提交，就会出现上图的预测结果
+4. 在浏览器中输入`http://127.0.0.1:8000`先选择一张图片，然后点击提交，就会出现上图的预测结果
 
 ![](E:\project\Dog-Breed-Identification-Gluon-master\image\fig2.png)
