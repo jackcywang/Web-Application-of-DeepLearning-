@@ -32,3 +32,14 @@ python app.py
 4. 在浏览器中输入`http://127.0.0.1:8000`先选择一张图片，然后点击提交，就会出现上图的预测结果
 
 ![演示图2](image/fig2.png)
+
+### todo
+
+1.目前只能在本地运行，未来希望直接线上调用预测。
+
+2.网页太简洁了，希望更美观些
+
+
+
+参考[https://github.com/fierceX/Dog-Breed-Identification-Gluon](https://github.com/fierceX/Dog-Breed-Identification-Gluon)
+
