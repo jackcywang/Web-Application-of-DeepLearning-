@@ -1,8 +1,16 @@
-这是一个基于Tornato框架的web网页，该网页是和之前的一个比赛相关的，上传一张图片，网页自动识别出该图片的类别，识别数据是西安的名胜古迹和美食，包含了54类，可以上传本地的图片，识别该图片属于啥。
+这是一个基于Tornato框架的web网页，上传一张图片，网页自动识别出该图片的类别，识别数据是西安的名胜古迹和美食，包含了54类，可以上传本地的图片，识别该图片属于那种类型。
 
 ![演示图1](image/fig.png)
 
 ### 安装运行步骤
+
+运行环境：
+
+> torch 1.2
+>
+> torchvision 0.2.1
+>
+> tornado 5.02
 
 1.下载解压
 
@@ -10,7 +18,7 @@
 git clone https://github.com/jackcywang/Web-Application-of-DeepLearning-.git
 ```
 
-2.下载权重 到Web-Application-of-DeepLearning-目录
+2.下载权重 到Web-Application-of-DeepLearning-/weights目录下，若没有weights目录，需要自己创建一个
 
 权重地址[百度云盘](https://pan.baidu.com/s/1HHe8hysDr_UVX6I4o62EfQ)，密钥0z6q
 
