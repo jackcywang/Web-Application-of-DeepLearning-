@@ -27,7 +27,7 @@ define("port", default=8000, help="run on the given port", type=int)
 # PP = Pre(netparams,ids_synsets[1],1)
 
 model = Dense201()
-model.load_state_dict(torch.load('model_bestbestacc.pth',map_location='cpu'))
+model.load_state_dict(torch.load('./weights/model_bestbestacc.pth',map_location='cpu'))
 model.eval()
 
 
